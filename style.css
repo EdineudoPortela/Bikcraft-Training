@@ -1,0 +1,18 @@
+h1{color: rgba(1, 105, 70, 0.653);}
+
+.p-red{color: #f00;}
+.p-green{color: #0f0;}
+
+.p-font-11{font-size: 11px;}
+.p-font-18{font-size: 18px;}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #c92071;
+    color: #fff;
+    font-style: oblique;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
