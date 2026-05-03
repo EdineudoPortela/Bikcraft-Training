@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikcraft</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body> 
-    <h1>Contato</h1>
-    <p class="p-green p-font-18">contatos: <a href="tel:+5585988410376">+55 85988410376</a></p>
-    <a href="./index.html"> ← Voltar para página inicial</a>
-    
+
+<body>
+    <form>
+        <div class="primary-box">
+            <div>
+                <label>nome</label>
+                <input type="text" placeholder="Seu nome" />
+            </div>
+            <div>
+                <label>telefone<label>
+                <input type="tel" placeholder="(xx) xxxxxxxxx" />
+            </div>
+        </div>
+
+        <!-- Segunda caixa -->
+        <div>
+            <label>email</label>
+            <input type="email" placeholder="contato@email.com">
+        </div>
+
+        <!-- Terceira caixa -->
+        <div>
+            <label>mensagem</label>
+            <textarea placeholder="O que você precisa?"></textarea>
+
+        </div>
+
+        <!-- Botão -->
+        <button>envie sua mensagem</button>
+    </form>
 </body>
+
 </html>
